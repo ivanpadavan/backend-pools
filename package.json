@@ -1,0 +1,24 @@
+{
+  "name": "pools-express",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-restify-mongoose": "^4.1.3",
+    "method-override": "^2.3.7",
+    "mongoose": "^4.7.7",
+    "mongoose-autopopulate": "^0.5.0",
+    "mongoose-relationship": "^0.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
